@@ -67,7 +67,7 @@ function showLoading() {
 }
 
 function hideLoading() {
-    document.getElementById('loading').classList.add('hidden')
+    document.getElementById('loading').classList.add('hidden');
 }
 
 // Display error messages
