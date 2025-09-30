@@ -27,9 +27,9 @@ function searchStation() {
 
     // TODO: STUDENTS COMPLETE THIS SECTION
     // 1. Build the API URL using the constants above and the callsign variable
-    const apiUrl = `${API_BASE_URL}?` +
-            `lat=${PHILLY_LAT}&lon=${PHILLY_LON}&` +
-            `search_freq=none&callsign=${callsign}&request_type=4&` +
+    const apiUrl = `http://52.151.197.43/%60?` +
+            `lat=39.87279&lon=-74.6647&` +
+            `search_freq=none&callsign=USER_INPUT&request_type=4&` +
             `pi_code=none&sig_strength=null&startMiles=none&` +
             `miles=null&format=none&rxHeight=10&measurementUnit=meters`;
     // 2. Make a fetch request to the RadioLand API
